@@ -1,7 +1,14 @@
+import { Navabar } from './components'
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Exo_2 } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const exo = Exo_2({
+  weight: ["300","400", "600", "800"],
+  style: ["normal"],
+  subsets: ["latin"],
+  variable: "--font-exo", 
+  display: "swap",
+});
 
 export const metadata = {
   title: 'Create Next App',
@@ -10,8 +17,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="es">
+      <body suppressHydrationWarning={true} className={`${exo.variable} font-sans`}>
+      <Navabar />
+          {children}
+      </body>
     </html>
   )
 }
