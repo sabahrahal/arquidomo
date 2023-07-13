@@ -3,39 +3,39 @@ import Image from "next/image"
 
 export const InfoSection = () => {
     return (
-        <section className="container px-2 md:px-0 my-[100px] flex flex-col items-center lg:flex lg:flex-row gap-y-6">
+        <section id="info_section" className="container px-2 md:px-0 my-[100px] flex flex-col items-center lg:flex lg:flex-row gap-y-6">
             <div className="lg:w-1/2">
-                <h2>Descubre La Comodidad Total En Tus Manos</h2>
-                <p className="mb-4 text-justify md:text-left">En Arquidomo, transformamos tu hogar en un espacio inteligente con nuestra completa solución de automatización. Descubre los beneficios:</p>
+                <h2>Ventajas de un Hogar Automatizado</h2>
+                <p className="mb-4 text-justify">Descubre las ventajas de tener un hogar automatizado con Arquidomo. Simplifica tu vida, disfruta del confort y la comodidad, y aprovecha al máximo la tecnología para crear un ambiente personalizado en tu hogar.</p>
 
-                <p className="flex flex-col mb-2 text-justify md:text-left">
-                <span className="flex items-center uppercase text-primary font-bold"><ArrowBigRight/> Cine en casa</span> 
-                Disfruta de una experiencia cinematográfica de alta calidad desde la comodidad de tu sala. Controla proyector, volumen e iluminación desde tu teléfono.
+                <p className="flex flex-col mb-2 text-justify">
+                <span className="flex items-center uppercase text-primary font-bold"><ArrowBigRight/>Conveniencia</span> 
+                Controla todos los aspectos de tu hogar desde tu teléfono, brindando comodidad y accesibilidad en cada espacio.
                 </p>
 
-                <p className="flex flex-col mb-2 text-justify md:text-left">
-                <span className="flex items-center uppercase text-primary font-bold"><ArrowBigRight/>Audio multizonas</span> 
-                Ambienta cada habitación con música gracias a nuestro sistema de audio. Controla la reproducción y volumen desde tu teléfono.
+                <p className="flex flex-col mb-2 text-justify">
+                <span className="flex items-center uppercase text-primary font-bold"><ArrowBigRight/>Ahorro de energía</span> 
+                Programa horarios para el encendido y apagado automático de luces y dispositivos, reduciendo el consumo energético.
                 </p>
 
-                <p className="flex flex-col mb-2 text-justify md:text-left">
-                <span className="flex items-center uppercase text-primary font-bold"><ArrowBigRight/>Sala multimedia</span> 
-                Convierte cualquier habitación en una sala de entretenimiento. Controla dispositivos electrónicos, como TV y videojuegos, de manera sencilla.
+                <p className="flex flex-col mb-2 text-justify">
+                <span className="flex items-center uppercase text-primary font-bold"><ArrowBigRight/>Seguridad mejorada</span> 
+                Vigila tu hogar desde cualquier lugar con sistemas de cámaras y sensores integrados, manteniendo tu tranquilidad.
                 </p>
 
-                <p className="flex flex-col mb-2 text-justify md:text-left">
-                <span className="flex items-center uppercase text-primary font-bold"><ArrowBigRight/>Wifi y redes</span> 
-                Mantén una conexión estable y rápida en toda tu casa. Administra y optimiza tu red Wi-Fi para un rendimiento óptimo.
+                <p className="flex flex-col mb-2 text-justify ">
+                <span className="flex items-center uppercase text-primary font-bold"><ArrowBigRight/>Entretenimiento envolvente</span> 
+                Crea una experiencia de cine en casa, con sonido envolvente y control de iluminación para una inmersión completa.
                 </p>
 
-                <p className="flex flex-col mb-2 text-justify md:text-left">
-                <span className="flex items-center uppercase text-primary font-bold"><ArrowBigRight/>Control de iluminación</span> 
-                Ajusta la iluminación según tus necesidades. Enciende, apaga y regula las luces, crea escenas personalizadas y programa horarios automáticos.
+                <p className="flex flex-col mb-2 text-justify">
+                <span className="flex items-center uppercase text-primary font-bold"><ArrowBigRight/>Conectividad total</span> 
+                Optimiza tu red Wi-Fi, asegurando una conexión estable para todos tus dispositivos y permitiendo una comunicación fluida.
                 </p>
 
-                <p className="flex flex-col mb-2 text-justify md:text-left">
-                <span className="flex items-center uppercase text-primary font-bold"><ArrowBigRight/>Cortinas automatizadas</span> 
-                Controla tus cortinas desde tu teléfono con un toque. Abre y cierra según la hora del día, la luz exterior o por privacidad.
+                <p className="flex flex-col mb-2 text-justify">
+                <span className="flex items-center uppercase text-primary font-bold"><ArrowBigRight/>Ambientes personalizados</span> 
+                Ajusta la iluminación, las cortinas y el audio para cada momento del día, creando ambientes acogedores y funcionales.
                 </p>
             </div>
 

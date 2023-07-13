@@ -1,4 +1,4 @@
-import { Navabar } from './components'
+import { Footer, Navbar } from './components'
 import './globals.css'
 import { Exo_2 } from 'next/font/google'
 
@@ -17,10 +17,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
+    <html lang="es" class="scroll-smooth">
       <body suppressHydrationWarning={true} className={`${exo.variable} font-sans`}>
-      <Navabar />
+      <Navbar />
           {children}
+      <Footer />    
       </body>
     </html>
   )

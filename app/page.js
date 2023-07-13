@@ -1,5 +1,4 @@
-import { Hero, InfoSection } from "./components";
-import { GridIcons } from "./components/GridIcons";
+import { ContactSection, Hero, InfoSection, GridIcons } from "./components";
 
 export default function Home() {
 
@@ -8,6 +7,7 @@ export default function Home() {
       <Hero />
       <InfoSection />
       <GridIcons />
+      <ContactSection />
     </>
   )
 }

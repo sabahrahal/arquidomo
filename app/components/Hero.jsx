@@ -6,7 +6,7 @@ export const Hero = () => {
                 <div>
                     <h1 className="max-w-md mb-5 text-4xl lg:text-6xl font-bold mx-auto">Automatización de hogares con <span className="uppercase font-bold text-5xl lg:text-7xl">Arquidomo</span></h1>
                     <p className="mb-5 text-justify md:max-w-xl">Bienvenido a Arquidomo, tu solución de automatización de hogares de confianza. Ofrecemos una amplia gama de servicios, incluyendo cine en casa, audio multizonas, sala multimedia, wifi/redes, control de iluminación y cortinas automatizadas. Nuestro enfoque se basa en trabajar con marcas líderes en la industria, como Savant, Sonance y Lutron, para brindarte la mejor experiencia en tu hogar automatizado.</p>
-                    <button className="btn btn-primary">Get Started</button>
+                    <a href="#info_section" className="btn btn-primary">¡Empieza ahora!</a>
                 </div>
             </div>
         </section>
