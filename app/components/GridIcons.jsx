@@ -1,4 +1,3 @@
-import { Blinds, Film, Lightbulb, Projector, Speaker, Wifi } from "lucide-react"
 import { SingleIcons } from "./SingleIcons"
 
 export const GridIcons = () => {
@@ -45,7 +44,7 @@ export const GridIcons = () => {
     return (
         <section className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 xl:gap-x-4 gap-y-8 bg-primary py-[50px] px-2">
             {
-                data.map( item => <SingleIcons key={item.title} {...item}/> )
+                data.map( item => <SingleIcons key={`${item.title}-SI`} {...item}/> )
             }
         </section>
     )

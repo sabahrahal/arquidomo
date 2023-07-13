@@ -17,7 +17,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es" class="scroll-smooth">
+    <html lang="es" className="scroll-smooth">
       <body suppressHydrationWarning={true} className={`${exo.variable} font-sans`}>
       <Navbar />
           {children}
