@@ -5,7 +5,7 @@ export const InfoProducts = ({ firstSection, secondSection, thirdSection }) => {
   return (
     <>
       <section className="my-[100px] lg:px-0 px-2">
-        <Image className="aspect-video object-cover rounded mb-2 mx-auto" src={firstSection.image} width={896} height={504} alt="Cine en casa Arquidomo" />
+        <Image className="aspect-video object-cover rounded mb-2 mx-auto" src={firstSection.image} width={896} height={504} alt="Cine en casa Arquidomo" loading="eager"/>
         <h2 className="max-w-[896px] mx-auto mb-2 text-primary">{ firstSection.h2Title }</h2>
         <p className="text-justify max-w-[896px] mx-auto">{ firstSection.p }</p>
       </section>
