@@ -17,7 +17,7 @@ export const InfoProducts = ({ firstSection, secondSection, thirdSection }) => {
             <p className="lg:max-w-2xl text-justify">{secondSection.p}</p>
           </div>
 
-            <Image className="aspect-video object-cover rounded mb-2 mx-auto" src={secondSection.image} width={896} height={504} alt="Cine en casa Arquidomo" />
+            <Image className="aspect-video object-scale-down rounded mb-2 mx-auto" src={secondSection.image} width={896} height={504} alt="Cine en casa Arquidomo" />
 
         </div>
       </section>
@@ -29,7 +29,7 @@ export const InfoProducts = ({ firstSection, secondSection, thirdSection }) => {
             <p className="lg:max-w-2xl text-justify">{thirdSection.p}</p>
           </div>
 
-            <Image className="aspect-video object-cover rounded mb-2 mx-auto" src={thirdSection.image} width={896} height={504} alt="Cine en casa Arquidomo" />
+            <Image className="aspect-video object-scale-down rounded mb-2 mx-auto" src={thirdSection.image} width={896} height={504} alt="Cine en casa Arquidomo" />
 
         </div>
       </section>
