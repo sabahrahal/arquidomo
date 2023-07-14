@@ -1,6 +1,6 @@
 export const Hero = () => {
     return (
-        <section className="hero min-h-screen" style={{ backgroundImage: 'url(https://res.cloudinary.com/dojunfcmb/image/upload/v1689133317/Aquidomo/young-woman-using-home-technology-min_enjo36.webp)' }}>
+        <section className="hero min-h-screen">
             <div className="hero-overlay bg-opacity-80"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div>
