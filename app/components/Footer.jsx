@@ -4,11 +4,15 @@ import Link from "next/link"
 export const Footer = () => {
     return (
         <footer className="footer footer-center p-10 bg-base-100 text-base-content rounded">
-            <div className="grid grid-flow-col gap-4">
-                <a className="link link-hover">About us</a>
-                <a className="link link-hover">Contact</a>
-                <a className="link link-hover">Jobs</a>
-                <a className="link link-hover">Press kit</a>
+            <div className="grid grid-flow-row lg:grid-flow-col gap-4">
+                <Link href="/" className="link link-hover">Inicio</Link>
+                <Link href="/contacto" className="link link-hover">Contactanos</Link>
+                <Link href="/cine-en-casa" className="link link-hover">Cine en casa</Link>
+                <Link href="/audio-multizonas" className="link link-hover">Audio multizonas</Link>
+                <Link href="/sala-multimedia" className="link link-hover">Sala multimedia</Link>
+                <Link href="/wifi-y-redes" className="link link-hover">Wifi y redes</Link>
+                <Link href="/control-de-iluminacion" className="link link-hover">Control de iluminación</Link>
+                <Link href="/cortinas-automatizadas" className="link link-hover">Cortinas automatizadas</Link>
             </div>
             <div>
                 <div className="grid grid-flow-col gap-4">
@@ -18,7 +22,8 @@ export const Footer = () => {
                 </div>
             </div>
             <div>
-                <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+                <p className="mb-2">Copyright © 2023 - Todos los derechos reservador por Arquidomo</p>
+                <p>Developed by <a className="link link-hover font-bold" href="https://github.com/sabahrahal">Sabah Rahal</a> </p>
             </div>
         </footer>
     )

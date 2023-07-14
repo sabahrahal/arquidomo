@@ -1,5 +1,14 @@
 import { PageLayout } from "../pageLayout/PageLayout"
 
+export const metadata = () => {
+  return {
+    title: "Cine en Casa | Arquidomo - Automatización de Hogares",
+    description:
+      "Vive una experiencia cinematográfica en la comodidad de tu hogar con el servicio de cine en casa de Arquidomo. Proyectores 4K/8K, sonido envolvente y más.",
+    keywords: ["cine en casa", "experiencia cinematográfica", "proyector 4K/8K","sonido envolvente","Arquidomo" ],
+  };
+};
+
 const page = () => {
     const data = {
         h1: "Cine en casa", 

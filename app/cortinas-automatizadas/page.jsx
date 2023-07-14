@@ -1,5 +1,14 @@
 import { PageLayout } from "../pageLayout/PageLayout"
 
+export const metadata = () => {
+  return {
+    title: "Cortinas Automatizadas | Arquidomo - Automatización de Hogares",
+    description:
+      "Controla tus cortinas con facilidad y transforma tus espacios con las cortinas automatizadas de Arquidomo. Privacidad, comodidad y estilo en un solo toque.",
+    keywords: ["cortinas automatizadas", "control de cortinas", "privacidad","estética","Arquidomo" ],
+  };
+};
+
 const page = () => {
   const data = {
     h1: "Cortinas Automatizadas", 

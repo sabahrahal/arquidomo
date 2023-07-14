@@ -1,5 +1,14 @@
 import { PageLayout } from "../pageLayout/PageLayout"
 
+export const metadata = () => {
+  return {
+    title: "Audio Multizonas | Arquidomo - Automatización de Hogares",
+    description:
+      "Disfruta de música en todas las habitaciones de tu hogar con el sistema de audio multizonas de Arquidomo. Controla la reproducción y crea la atmósfera perfecta.",
+    keywords: ["audio multizonas", "sistema de audio para hogar", "música en todas las habitaciones","Arquidomo" ],
+  };
+};
+
 const page = () => {
   const data = {
     h1: "Audio multizonas", 

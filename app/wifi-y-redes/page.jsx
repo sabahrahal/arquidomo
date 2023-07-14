@@ -1,5 +1,14 @@
 import { PageLayout } from "../pageLayout/PageLayout"
 
+export const metadata = () => {
+  return {
+    title: "WiFi y Redes | Arquidomo - Automatización de Hogares",
+    description:
+      "Optimiza tu conexión con los servicios de WiFi y redes de Arquidomo. Mantén una cobertura confiable y un rendimiento óptimo en todos tus dispositivos.",
+    keywords: ["WiFi", "redes", "conexión estable","optimización de red","Arquidomo" ],
+  };
+};
+
 const page = () => {
   const data = {
     h1: "Wifi y redes", 

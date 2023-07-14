@@ -1,5 +1,14 @@
 import { PageLayout } from "../pageLayout/PageLayout"
 
+export const metadata = () => {
+  return {
+    title: "Control de Iluminación | Arquidomo - Automatización de Hogares",
+    description:
+      "Personaliza la iluminación de tu hogar con el control de iluminación de Arquidomo. Ajusta la intensidad, crea ambientes y ahorra energía de manera inteligente.",
+    keywords: ["control de iluminación", "cortinas automatizadas", "ambiente personalizado","ahorro de energía","Arquidomo" ],
+  };
+};
+
 const page = () => {
   const data = {
     h1: "Control de iluminación", 

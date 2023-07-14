@@ -23,7 +23,7 @@ export const Navbar = () => {
                                 <li><Link href={"/cortinas-automatizadas"}>Cortinas automatizadas</Link></li>
                             </ul>
                         </li>
-                        <li><Link href={"/"}>Contactanos</Link></li>
+                        <li><Link href={"/contacto"}>Contactanos</Link></li>
                     </ul>
                 </div>
                 <Link href={"/"}>
@@ -46,7 +46,7 @@ export const Navbar = () => {
                             </ul>
                         </details>
                     </li>
-                    <li><Link href={"/"}>Contactanos</Link></li>
+                    <li><Link href={"/contacto"}>Contactanos</Link></li>
                 </ul>
             </div>
         </div>

@@ -1,5 +1,14 @@
 import { PageLayout } from "../pageLayout/PageLayout"
 
+export const metadata = () => {
+  return {
+    title: "Sala Multimedia | Arquidomo - Automatización de Hogares",
+    description:
+      "Crea una sala multimedia versátil y excepcionalmente entretenida con los servicios de Arquidomo. Disfruta de cine, música y más en cada rincón de tu hogar.",
+    keywords: ["sala multimedia", "entretenimiento en casa", "control de dispositivos","Arquidomo" ],
+  };
+};
+
 const page = () => {
   const data = {
     h1: "Sala multimedia", 
