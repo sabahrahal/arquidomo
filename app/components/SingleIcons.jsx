@@ -1,6 +1,7 @@
 import Image from "next/image"
+import Link from "next/link"
 
-export const SingleIcons = ({title, description, image, alt}) => {
+export const SingleIcons = ({title, description, image, alt, linkRef}) => {
   return (
     <div className="card md:w-96 bg-base-100 shadow-xl mx-auto">
     <figure>
@@ -10,7 +11,7 @@ export const SingleIcons = ({title, description, image, alt}) => {
         <h2 className="card-title">{ title }</h2>
         <p>{ description }</p>
         <div className="card-actions justify-end">
-            <button className="btn btn-primary">ver más...</button>
+            <Link href={ linkRef } className="btn btn-primary">Ver más...</Link>
         </div>
     </div>
 </div>

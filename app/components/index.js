@@ -1,4 +1,3 @@
-export * from './ContactSection';
 export * from './Footer';
 export * from './GridIcons';
 export * from './Hero';

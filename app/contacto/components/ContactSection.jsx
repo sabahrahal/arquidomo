@@ -1,4 +1,5 @@
-import { ContactForm } from "../contacto/components/ContactForm"
+import { ContactForm } from "."
+
 
 export const ContactSection = () => {
     return (

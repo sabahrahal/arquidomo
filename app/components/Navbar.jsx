@@ -15,18 +15,20 @@ export const Navbar = () => {
                         <li>
                             <a>Residencial</a>
                             <ul className="p-2">
-                                <li><Link href={"/"}>Cine en casa</Link></li>
-                                <li><Link href={"/"}>Audio multizonas</Link></li>
-                                <li><Link href={"/"}>Sala multimedia</Link></li>
-                                <li><Link href={"/"}>Wifi y redes</Link></li>
-                                <li><Link href={"/"}>Control de iluminación</Link></li>
-                                <li><Link href={"/"}>Cortinas automatizadas</Link></li>
+                                <li><Link href={"/cine-en-casa"}>Cine en casa</Link></li>
+                                <li><Link href={"/audio-multizonas"}>Audio multizonas</Link></li>
+                                <li><Link href={"/sala-multimedia"}>Sala multimedia</Link></li>
+                                <li><Link href={"/wifi-y-redes"}>Wifi y redes</Link></li>
+                                <li><Link href={"/control-de-iluminacion"}>Control de iluminación</Link></li>
+                                <li><Link href={"/cortinas-automatizadas"}>Cortinas automatizadas</Link></li>
                             </ul>
                         </li>
                         <li><Link href={"/"}>Contactanos</Link></li>
                     </ul>
                 </div>
-                <Image src={ logo } width={100} height={100} alt="logo arquidomo"/>
+                <Link href={"/"}>
+                    <Image src={ logo } width={100} height={100} alt="logo arquidomo"/>
+                </Link>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -35,12 +37,12 @@ export const Navbar = () => {
                         <details>
                             <summary>Residencial</summary>
                             <ul className="p-2">
-                                <li><Link href={"/"}>Cine en casa</Link></li>
-                                <li><Link href={"/"}>Audio multizonas</Link></li>
-                                <li><Link href={"/"}>Sala multimedia</Link></li>
-                                <li><Link href={"/"}>Wifi y redes</Link></li>
-                                <li><Link href={"/"}>Control de iluminación</Link></li>
-                                <li><Link href={"/"}>Cortinas automatizadas</Link></li>
+                                <li><Link href={"/cine-en-casa"}>Cine en casa</Link></li>
+                                <li><Link href={"/audio-multizonas"}>Audio multizonas</Link></li>
+                                <li><Link href={"/sala-multimedia"}>Sala multimedia</Link></li>
+                                <li><Link href={"/wifi-y-redes"}>Wifi y redes</Link></li>
+                                <li><Link href={"/control-de-iluminacion"}>Control de iluminación</Link></li>
+                                <li><Link href={"/cortinas-automatizadas"}>Cortinas automatizadas</Link></li>
                             </ul>
                         </details>
                     </li>
