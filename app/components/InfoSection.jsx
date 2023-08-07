@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export const InfoSection = () => {
     return (
-        <section id="info_section" className="container px-2 md:px-0 my-[100px] flex flex-col items-center lg:flex lg:flex-row gap-y-6">
+        <section id="info_section" className="container px-2 md:px-0 my-[80px] flex flex-col items-center lg:flex lg:flex-row gap-y-6">
             <div className="lg:w-1/2">
                 <h2>Ventajas de un Hogar Automatizado</h2>
                 <p className="mb-4 text-justify">Descubre las ventajas de tener un hogar automatizado con Arquidomo. Simplifica tu vida, disfruta del confort y la comodidad, y aprovecha al máximo la tecnología para crear un ambiente personalizado en tu hogar.</p>
