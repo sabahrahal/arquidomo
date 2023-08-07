@@ -27,7 +27,7 @@ export const GridIcons = () => {
         {
             title: "Wifi y redes",
             description: "Mantén una conexión estable y rápida en toda tu casa. Administra y optimiza tu red Wi-Fi para un rendimiento óptimo.",
-            image: "https://res.cloudinary.com/dojunfcmb/image/upload/v1689238705/Aquidomo/wifi_y_redes_ggv386.webp",
+            image: "https://res.cloudinary.com/dojunfcmb/image/upload/v1691390152/082b8fa6-6222-4333-8a86-ee9e259af0f4_dl6ukz.webp",
             alt: "Imagen wifi y redes",
             linkRef: "/wifi-y-redes"
         },

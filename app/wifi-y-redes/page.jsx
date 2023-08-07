@@ -13,7 +13,7 @@ const page = () => {
   const data = {
     h1: "Wifi y redes", 
     firstSection: {
-      image: "https://res.cloudinary.com/dojunfcmb/image/upload/v1689238705/Aquidomo/wifi_y_redes_ggv386.webp",
+      image: "https://res.cloudinary.com/dojunfcmb/image/upload/v1691390152/082b8fa6-6222-4333-8a86-ee9e259af0f4_dl6ukz.webp",
       h2Title: "Mantén tu hogar conectado en todo momento con una red de internet en toda tu casa",
       p:"La conectividad en todo tu hogar es esencial en la era digital en la que vivimos. Con una red de internet en toda tu casa, podrás disfrutar de una conexión estable y rápida en cada habitación. Trabaja desde cualquier lugar, disfruta de transmisiones en línea sin interrupciones, juega videojuegos en línea sin latencia y conecta todos tus dispositivos inteligentes de manera fluida. No importa dónde te encuentres en tu hogar, una red de internet confiable te brinda la libertad de estar siempre conectado y aprovechar al máximo la tecnología. Descubre la utilidad de tener una internet en toda tu casa con Arquidomo."
     },
